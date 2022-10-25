@@ -1,0 +1,35 @@
+{
+  "name": "optinator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "eslint --ext .js,.ts .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhipeus/Optinator-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rhipeus/Optinator-JS/issues"
+  },
+  "homepage": "https://github.com/Rhipeus/Optinator-JS#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
